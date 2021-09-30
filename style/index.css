@@ -141,29 +141,39 @@ h1 {
   margin: 3% 15%;
   text-align: left;
   font-size: 5rem;
+  transition:1s;
+}
+h1:hover {
+    font-size: 6rem;
 }
 nav {
   display: flex;
 }
-nav a {
-  background-color: rgba(11, 1, 141, 0.438);
-  color: rgb(209, 209, 209);
+header nav a {
   height: 1.5rem;
+  color: rgba(0, 0, 0, 0.836);
+  background-color: rgba(255, 255, 255, 0.719);
   width: 4rem;
   text-align: center;
   border-radius: 0.5rem;
   font-size: 1rem;
-  margin-top: 55%;
-  border: 1px solid #555555;
+  margin: 55% 1% 0 1%;
+  padding-top: 2%;
+  border: 1px solid black;
   text-decoration: none;
+  transition:1s;
+}
+header nav a:hover{
+    background-color: rgba(11, 1, 141, 0.438);
+    color: rgba(255, 255, 255, 0.87);
 }
 #intro {
   display: flex;
   padding: 3% 10%;
-  background-color: rgba(0, 0, 100, 0.425);
+  background-color: rgba(0, 0, 100, 0.422);
 }
 #intro img {
-  width: 50%;
+  width: 50%;S
   height: 50%;
 }
 .welcome {
@@ -237,16 +247,27 @@ footer h4 {
   padding-bottom: 1%;
   color: rgba(209, 209, 209, 0.647);
 }
-footer button {
-  height: 2rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  margin-bottom: 4%;
-  background-color: rgba(231, 229, 229, 0.911);
-  color: rgb(0, 0, 0);
-  transition: 1s;
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-footer button:hover {
-  background-color: rgba(231, 229, 229, 0.211);
-  color: rgba(255, 255, 255, 0.5);
+footer nav a {
+    height: 2rem;
+    color: rgba(0, 0, 0, 0.836);
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 7rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding-top:.81%;
+    border: 1px solid black;
+    text-decoration: none;
+    transition:1s;
+    margin-bottom: 2%;
+  }
+footer nav a:hover{
+      background-color: rgba(52, 48, 110, 0.438);
+      color: rgba(255, 255, 255, 0.87);
 }
