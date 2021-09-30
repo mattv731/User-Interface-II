@@ -131,7 +131,7 @@ body {
   padding: 0;
 }
 header {
-  background-color: rgb(209, 209, 209);
+  background-color: rgba(209, 209, 209, 0.877);
   display: flex;
   justify-content: center;
 }
@@ -181,6 +181,11 @@ h2 {
   height: 2rem;
   border-radius: 0.5rem;
   font-size: 1rem;
+  transition: 1s;
+}
+.welcome button:hover {
+  background-color: rgba(44, 43, 43, 0.726);
+  color: rgba(231, 229, 229, 0.811);
 }
 .welcome p {
   margin: 5%;
@@ -188,6 +193,7 @@ h2 {
 #showcase {
   padding: 5%;
   background-color: rgba(0, 0, 70, 0.625);
+  color: rgba(209, 209, 209, 0.647);
 }
 h3 {
   font-size: 2rem;
@@ -228,10 +234,19 @@ footer {
 footer h4 {
   font-size: 1.6rem;
   padding-top: 4%;
+  padding-bottom: 1%;
+  color: rgba(209, 209, 209, 0.647);
 }
 footer button {
   height: 2rem;
   border-radius: 0.5rem;
   font-size: 1rem;
   margin-bottom: 4%;
+  background-color: rgba(231, 229, 229, 0.911);
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+footer button:hover {
+  background-color: rgba(231, 229, 229, 0.211);
+  color: rgba(255, 255, 255, 0.5);
 }
