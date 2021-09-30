@@ -1,1 +1,273 @@
 /* Add CSS styling here */
+/*css reset*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: "Arsenal", sans-serif;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgba(209, 209, 209, 0.877);
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Fredericka the Great", cursive;
+  margin: 3% 15%;
+  text-align: left;
+  font-size: 5rem;
+  transition:1s;
+}
+h1:hover {
+    font-size: 6rem;
+}
+nav {
+  display: flex;
+}
+header nav a {
+  height: 1.5rem;
+  color: rgba(0, 0, 0, 0.836);
+  background-color: rgba(255, 255, 255, 0.719);
+  width: 4rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin: 55% 1% 0 1%;
+  padding-top: 2%;
+  border: 1px solid black;
+  text-decoration: none;
+  transition:1s;
+}
+header nav a:hover{
+    background-color: rgba(11, 1, 141, 0.438);
+    color: rgba(255, 255, 255, 0.87);
+}
+#intro {
+  display: flex;
+  padding: 3% 10%;
+  background-color: rgba(0, 0, 100, 0.422);
+}
+#intro img {
+  width: 50%;S
+  height: 50%;
+}
+.welcome {
+  text-align: center;
+  padding: 4%;
+  /*border: 1px solid black;*/
+}
+h2 {
+  font-size: 2.5rem;
+  margin-top: 0%;
+}
+.welcome button {
+  width: 10rem;
+  margin: 3%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: 1s;
+}
+.welcome button:hover {
+  background-color: rgba(44, 43, 43, 0.726);
+  color: rgba(231, 229, 229, 0.811);
+}
+.welcome p {
+  margin: 5%;
+}
+#showcase {
+  padding: 5%;
+  background-color: rgba(0, 0, 70, 0.625);
+  color: rgba(209, 209, 209, 0.647);
+}
+h3 {
+  font-size: 2rem;
+}
+.row1 {
+  display: flex;
+  align-content: center;
+}
+.row1 img {
+  width: 20%;
+  padding: 2.5%;
+}
+.row1text {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5%;
+}
+.row2 {
+  display: flex;
+  align-content: center;
+}
+.row2 img {
+  width: 20%;
+  padding: 2.5%;
+}
+.row2text {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5%;
+}
+footer {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgba(0, 0, 70, 0.725);
+  margin: 0;
+  padding: 0;
+}
+footer h4 {
+  font-size: 1.6rem;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  color: rgba(209, 209, 209, 0.647);
+}
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer nav a {
+    height: 2rem;
+    color: rgba(0, 0, 0, 0.836);
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 7rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding-top:.81%;
+    border: 1px solid black;
+    text-decoration: none;
+    transition:1s;
+    margin-bottom: 2%;
+  }
+footer nav a:hover{
+      background-color: rgba(52, 48, 110, 0.438);
+      color: rgba(255, 255, 255, 0.87);
+}
